@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import styles from './page.module.css'
-import useMediaQuery from '@mui/material/useMediaQuery'
 import React, { useState, useEffect } from 'react';
 
 export default function Menu() {
