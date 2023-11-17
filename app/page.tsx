@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.newsBlock}>
           <div className={styles.highlightArticle}>
             <div className={styles.highlightImage}>
-              <Image src="/image-web-3-desktop.jpg" alt="highlight image" width={1460} height={600} sizes="100vw" style={styles.mainimg} layout="responsive" />
+              <Image src="/image-web-3-desktop.jpg" alt="highlight image" width={1460} height={600} sizes="100vw" layout="responsive" />
             </div>
             <div className={styles.highlightText}>
               <h1>The Bright Future of Web 3.0?</h1>

@@ -26,7 +26,7 @@ export default function Menu() {
 
 
     // Add a listener to update the state when the media query changes
-    const handleMediaQueryChange = (event) => {
+    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
       if (event.matches) {
         setIsMenuOpen(false);
       }
