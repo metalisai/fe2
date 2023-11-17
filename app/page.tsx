@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.newsBlock}>
           <div className={styles.highlightArticle}>
             <div className={styles.highlightImage}>
-              <Image src="/image-web-3-desktop.jpg" alt="highlight image" width={1460} height={600} sizes="100vw" layout="responsive" />
+              <Image src="./image-web-3-desktop.jpg" alt="highlight image" width={1460} height={600} sizes="100vw" layout="responsive" />
             </div>
             <div className={styles.highlightText}>
               <h1>The Bright Future of Web 3.0?</h1>
@@ -46,7 +46,7 @@ export default function Home() {
         <div className={styles.popularBlock}>
           <div className={styles.popularItem}>
             <div className={styles.popularImage}>
-              <Image src="/image-retro-pcs.jpg" alt="retro pc" width={200} height={254} sizes="100vw" />
+              <Image src="./image-retro-pcs.jpg" alt="retro pc" width={200} height={254} sizes="100vw" />
             </div>
             <div className={styles.popularText}>
               <div className={styles.popularNr}>01</div>
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
           <div className={styles.popularItem}>
             <div className={styles.popularImage}>
-              <Image src="/image-top-laptops.jpg" alt="top laptops" width={200} height={254} sizes="100vw"/>
+              <Image src="./image-top-laptops.jpg" alt="top laptops" width={200} height={254} sizes="100vw"/>
             </div>
             <div className={styles.popularText}>
               <div className={styles.popularNr}>02</div>
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div className={styles.popularItem}>
             <div className={styles.popularImage}>
-              <Image src="/image-gaming-growth.jpg" alt="gaming growth" width={200} height={254} sizes="100vw"/>
+              <Image src="./image-gaming-growth.jpg" alt="gaming growth" width={200} height={254} sizes="100vw"/>
             </div>
             <div className={styles.popularText}>
               <div className={styles.popularNr}>03</div>
