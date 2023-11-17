@@ -10,10 +10,11 @@ export default function Menu() {
 
   const menuClick = () => {
     const nav = document.querySelector(`.${styles.navMobile}`);
-    const menuBtn = document.querySelector('button');
-    nav.classList.toggle(styles.navShowMobile);
-    setIsMenuOpen(!isMenuOpen);
-    console.log('menu clicked ' + isMenuOpen);
+    if (nav !== null)
+    {
+        nav.classList.toggle(styles.navShowMobile);
+        setIsMenuOpen(!isMenuOpen);
+    }
   }
 
   useEffect(() => {
@@ -26,9 +27,7 @@ export default function Menu() {
 
     // Add a listener to update the state when the media query changes
     const handleMediaQueryChange = (event) => {
-      console.log('media query changed' + isMenuOpen);
       if (event.matches) {
-        console.log('menu open when media query changed');
         setIsMenuOpen(false);
       }
       setIsMediaQueryMatched(event.matches);
